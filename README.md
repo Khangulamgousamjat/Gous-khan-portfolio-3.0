@@ -1,193 +1,194 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
+<div align="center">
 
-<h1 align="center">Developer Portfolio</h1>
+  <img src="./public/profile.png" alt="Gulamgous Khan" width="120" style="border-radius: 50%; box-shadow: 0 0 25px rgba(22, 242, 179, 0.4);" />
 
-<p align="center">
-  <strong>A modern, responsive, and customizable portfolio template for developers and freelancers</strong>
-</p>
+  <h1>🚀 Gulamgous Khan — Portfolio</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16.0.1-black?style=for-the-badge&logo=next.js" alt="Next.js 16.0.1">
-  <img src="https://img.shields.io/badge/React-19.2.0-blue?style=for-the-badge&logo=react" alt="React 19.2.0">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS 4">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
-</p>
+  <p>
+    <strong>Full Stack AI/ML Engineer | Generative AI & Autonomous Agent Systems | MERN & Next.js Architecture</strong>
+  </p>
 
-<p align="center">
-  <a href="#demo-movie_camera">Demo</a> •
-  <a href="#features-sparkles">Features</a> •
-  <a href="#installation-arrow_down">Installation</a> •
-  <a href="#usage-joystick">Usage</a> •
-  <a href="#deployment-rocket">Deployment</a> •
-  <a href="#tutorials-wrench">Tutorials</a>
-</p>
+  <p>
+    <a href="https://github.com/Khangulamgousamjat"><img src="https://img.shields.io/badge/GitHub-Khangulamgousamjat-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+    <a href="https://linkedin.com/in/gulamgous"><img src="https://img.shields.io/badge/LinkedIn-gulamgous-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="https://leetcode.com/u/khangulamgous/"><img src="https://img.shields.io/badge/LeetCode-khangulamgous-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
+    <a href="https://stackoverflow.com/users/33063940/khan-gulamgous-amjat"><img src="https://img.shields.io/badge/StackOverflow-Gulamgous_Khan-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow"></a>
+    <a href="mailto:gousk2004@gmail.com"><img src="https://img.shields.io/badge/Email-gousk2004%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  </p>
 
----
+  <p>
+    <img src="https://img.shields.io/badge/Next.js-16.2.7-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js">
+    <img src="https://img.shields.io/badge/React-19.2.7-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-4.x-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+    <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License">
+  </p>
 
-## Overview
+  <p>
+    <a href="#-overview">Overview</a> •
+    <a href="#-key-features">Key Features</a> •
+    <a href="#-featured-showcase-projects">Showcase Projects</a> •
+    <a href="#-technical-stack">Tech Stack</a> •
+    <a href="#-project-architecture">Project Structure</a> •
+    <a href="#-getting-started">Getting Started</a> •
+    <a href="#-environment-configuration">Environment Setup</a> •
+    <a href="#-docker-deployment">Docker</a> •
+    <a href="#-contact--connect">Connect</a>
+  </p>
 
-A professional portfolio template built with **Next.js 16**, **React 19**, and **Tailwind CSS 4**. Features a modern App Router architecture, server components, and data-driven configuration for easy customization.
-
----
-
-## Demo :movie_camera:
-
-<p align="center">
-  <img src="./public/image/screen.png" alt="Portfolio Screenshot" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
-    <strong>🚀 View Live Demo</strong>
-  </a>
-</p>
+</div>
 
 ---
 
-## Features :sparkles:
+## 📌 Overview
 
-- ✅ **Cutting-Edge Tech Stack**: Built with Next.js 16, React 19, and Tailwind CSS 4
-- ✅ **Fully Responsive**: Optimized for all devices and screen sizes
-- ✅ **SEO Optimized**: Better visibility on search engines with Next.js metadata API
-- ✅ **Blazing Fast Performance**: Leverages Next.js 16 server components and streaming
-- ✅ **App Router**: Uses the modern Next.js App Router architecture
-- ✅ **Easy Customization**: Simple data-driven configuration
-- ✅ **Contact Form**: Integrated email and Telegram notifications
-- ✅ **Blog Integration**: Automatically fetch posts from dev.to
-- ✅ **Dark Theme**: Beautiful gradient design with Lottie animations
-- ✅ **Docker Support**: Easy containerized deployment
-- ✅ **Google Analytics**: Track visitor insights with GTM support
+Welcome to the official repository for **Gulamgous Khan's Personal Portfolio**. 
+
+Built with the state-of-the-art **Next.js 16 (App Router)**, **React 19**, and **Tailwind CSS 4**, this portfolio is designed to showcase high-performance engineering, modern AI/ML systems, Generative AI agent workflows, and scalable full-stack web applications. 
+
+### Key Highlights:
+- **Ultra-Fast Server-Side Rendering (SSR)**: Powered by React Server Components (RSC) and Next.js 16 streaming.
+- **Dynamic Content Hub**: Server-side sync with `dev.to` to pull, cache, and display live technical articles.
+- **Dual Notification Gateway**: Seamless contact form dispatching to both **Gmail SMTP** and **Telegram Bot** alerts in real-time.
+- **Modern Cyber Aesthetic**: Dynamic dark-mode UI with sleek glassmorphism, Lottie micro-animations, and continuous marquee skill sliders.
 
 ---
 
-## Next.js 16 Features Used :rocket:
+## 🌟 Key Features
 
-This portfolio leverages the latest Next.js 16 and React 19 capabilities:
-
-| Feature                  | Benefit                                                      |
-| ------------------------ | ------------------------------------------------------------ |
-| **App Router**           | Modern routing with layouts and nested routes                |
-| **Server Components**    | Improved performance with zero JavaScript for static content |
-| **Server Actions**       | Simplified form handling in contact page                     |
-| **Metadata API**         | Enhanced SEO with type-safe metadata                         |
-| **Image Optimization**   | Automatic image optimization with `next/image`               |
-| **Font Optimization**    | Automatic font loading with `next/font`                      |
-| **Streaming & Suspense** | Better loading states and progressive rendering              |
-| **React 19 Features**    | Actions, use hook, and improved hydration                    |
+| Feature | Description |
+| :--- | :--- |
+| **⚡ Next.js 16 & React 19** | Built on modern Next.js App Router architecture leveraging React 19 concurrent features and zero-JS static server rendering. |
+| **🎨 Cyber Dark Glassmorphism UI** | Designed with Tailwind CSS 4, SCSS gradient overlays, and custom glowing borders for a futuristic developer experience. |
+| **🤖 AI & Full Stack Project Showcase** | Dedicated interactive cards highlighting projects across Multi-Agent Systems, RAG, MERN stack, and Machine Learning models. |
+| **🔄 Auto-Synced Technical Blog** | Real-time server-side Dev.to API integration that fetches, filters, and displays published engineering blogs without manual updates. |
+| **📬 Dual-Channel Contact Notification** | Contact form submissions trigger instant notifications to both Gmail via Nodemailer and a private Telegram Bot. |
+| **📊 Analytics & SEO Optimized** | Pre-configured with `@next/third-parties/google` (Google Tag Manager), open graph tags, and dynamic metadata. |
+| **🐳 Containerized & Cloud Ready** | Includes development & production Docker configurations (`Dockerfile.dev`, `Dockerfile.prod`, `docker-compose.yml`). |
+| **📱 100% Fully Responsive** | Pixel-perfect layout across mobile, tablet, laptop, and ultra-wide displays. |
 
 ---
 
-## Sections :bookmark:
+## 🚀 Featured Showcase Projects
 
-| Section           | Description                                         |
-| ----------------- | --------------------------------------------------- |
-| 🦸 **Hero**       | Eye-catching introduction with animated elements    |
-| 👤 **About Me**   | Personal information and professional summary       |
-| 💼 **Experience** | Work history and professional accomplishments       |
-| 🛠️ **Skills**     | Technical skills with animated marquee display      |
-| 🚀 **Projects**   | Showcase your best work with descriptions and links |
-| 🎓 **Education**  | Academic background and certifications              |
-| 📝 **Blog**       | Latest articles from dev.to (auto-fetched)          |
-| 📧 **Contact**    | Get in touch form with email/Telegram integration   |
+The portfolio highlights top-tier projects spanning Generative AI, Multi-Agent systems, distributed web apps, and machine learning pipelines:
 
----
-
-## Table of Contents :scroll:
-
-- [Overview](#overview)
-- [Demo](#demo-movie_camera)
-- [Features](#features-sparkles)
-- [Sections](#sections-bookmark)
-- [Tech Stack](#tech-stack-computer)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
-- [Tutorials](#tutorials-wrench)
-  - [Gmail App Password Setup](#gmail-app-password-setup)
-  - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
-- [Packages Used](#packages-used-package)
-- [Contributing](#contributing-handshake)
-- [License](#license-page_with_curl)
-- [Support](#support-coffee)
+| Project | Domain / Type | Key Technologies | Repository |
+| :--- | :--- | :--- | :--- |
+| **🤖 Pharma AI Agent** | Multi-Agent AI & Healthcare | Python, LangChain, AI Agents, RAG, OpenAI API | [View Code](https://github.com/Khangulamgousamjat/Pharma-AI-Agent) |
+| **⚡ Event Gous Kratos** | Scalable Event Management Platform | TypeScript, Next.js, Node.js, PostgreSQL, Tailwind CSS | [View Code](https://github.com/Khangulamgousamjat/Event-Gous-Kratos) |
+| **🛍️ Afreen Mall** | Full-Stack E-Commerce Solution | React, Node.js, Express, MongoDB, Tailwind CSS | [View Code](https://github.com/Khangulamgousamjat/Afreen-Mall) |
+| **🎯 Skill Developer** | AI-Driven Developer Skill Tracker | JavaScript, GPT-4, OpenAI API, React, Node.js, Chart.js | [View Code](https://github.com/Khangulamgousamjat/Skill-Developer) |
+| **🎓 Student Social** | Academic Real-Time Collaboration Hub | React, Node.js, MongoDB, Express, Socket.io | [View Code](https://github.com/Khangulamgousamjat/student-social-master) |
+| **🩺 Multiple Disease Prediction** | Machine Learning Health Diagnostics | Python, Scikit-learn, NumPy, Pandas, Flask | [View Code](https://github.com/Khangulamgousamjat/Multiple-disease-Prediction) |
+| **🌱 Food Waste Management** | Real-Time Surplus Food NGO Matching | TypeScript, React, Node.js, MongoDB, Tailwind CSS | [View Code](https://github.com/Khangulamgousamjat/food-waste-management) |
 
 ---
 
-## Tech Stack :computer:
+## 💻 Technical Stack
 
-| Technology       | Version | Purpose                                   |
-| ---------------- | ------- | ----------------------------------------- |
-| **Next.js**      | 16.0.1  | React framework with App Router           |
-| **React**        | 19.2.0  | UI component library with latest features |
-| **Tailwind CSS** | 4.x     | Utility-first CSS framework               |
-| **SASS**         | Latest  | CSS preprocessor                          |
-| **Lottie**       | Latest  | Lightweight animations                    |
-| **Nodemailer**   | Latest  | Email sending functionality               |
-| **Axios**        | Latest  | HTTP client for API requests              |
-| **Docker**       | -       | Containerization platform                 |
+<div align="center">
+
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Core Languages** | Python, JavaScript (ES6+), TypeScript, C, C++, HTML5, CSS3 |
+| **Frontend Frameworks** | Next.js 16 (App Router), React 19, Tailwind CSS 4, SASS/SCSS |
+| **AI / Machine Learning** | LangChain, AI Agents, RAG Pipelines, PyTorch, TensorFlow, Scikit-learn, OpenCV, NumPy, Pandas, OpenAI GPT-4 |
+| **Backend & APIs** | Node.js, Express.js, FastAPI, Django, REST APIs, Socket.io, Server Actions |
+| **Databases** | MongoDB, PostgreSQL, MySQL, Firebase Firestore |
+| **DevOps & Cloud** | Docker, Kubernetes, AWS, GCP, Azure, Linux, Nginx, Git, GitHub Actions |
+| **UI, Motion & Extras** | Lottie React, React Fast Marquee, React Icons, React Toastify, Sharp, Figma |
+
+</div>
 
 ---
 
-## Installation :arrow_down:
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed on your machine:
-
-| Tool                   | Minimum Version | Download Link                               |
-| ---------------------- | --------------- | ------------------------------------------- |
-| **Node.js**            | v18.17.0+       | [Download](https://nodejs.org/en/download/) |
-| **Git**                | Latest          | [Download](https://git-scm.com/downloads)   |
-| **pnpm** (recommended) | Latest          | [Install](https://pnpm.io/installation)     |
-
-> **Note**: Next.js 16 requires Node.js 18.17 or later. Node.js 20+ is recommended for optimal performance.
-
-#### Verify Installation
-
-Check your installations with these commands:
+## 📁 Project Structure
 
 ```bash
-node --version
-git --version
-pnpm --version  # or npm --version
+Gous-khan-portfolio-3.0/
+├── app/
+│   ├── api/
+│   │   ├── contact/          # Server API route for form submissions (Email + Telegram)
+│   │   ├── data/             # Backend data handlers
+│   │   └── google/           # Google Tag Manager and verification endpoints
+│   ├── assets/               # Lottie animations, SVG graphics, icons
+│   ├── blog/                 # Blog list and dynamic slug detail pages
+│   ├── components/
+│   │   ├── helper/           # Glow cards, animations, scroll-to-top utilities
+│   │   ├── homepage/         # Hero, About, Experience, Skills, Projects, Education, Blog, Contact
+│   │   ├── footer.jsx        # Responsive footer with social badges
+│   │   └── navbar.jsx        # Sticky backdrop-blur navigation bar
+│   ├── css/                  # Global SCSS, Tailwind config, card glow styles
+│   ├── layout.js             # Root Next.js layout, font loader, GTM provider
+│   ├── not-found.jsx         # Custom 404 page
+│   └── page.js               # Homepage entry with server-side dev.to data fetching
+├── public/                   # Static assets, profile image, project previews, SVGs
+├── utils/
+│   ├── data/                 # Centralized, customizable portfolio data modules
+│   │   ├── personal-data.js  # Bio, social links, designation, contact info
+│   │   ├── projects-data.js  # Project list, tools, roles, descriptions & URLs
+│   │   ├── skills.js         # Technical skills data for marquee banner
+│   │   ├── experience.js     # Professional and open-source experience
+│   │   ├── educations.js     # Degrees, academic background, certifications
+│   │   └── contactsData.js   # Contact form configuration
+│   ├── check-email.js        # Email validation helper
+│   ├── skill-image.js        # Dynamic skill icon resolver
+│   └── time-converter.js     # Timestamp formatting utility
+├── Dockerfile.dev            # Development container configuration
+├── Dockerfile.prod           # Multi-stage optimized production Dockerfile
+├── docker-compose.yml        # Docker compose service definition
+├── package.json              # Project dependencies & scripts
+└── README.md                 # Project documentation
 ```
 
 ---
 
-## Getting Started :dart:
+## 🛠️ Getting Started
 
-### 1. Fork and Clone the Repository
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+- **Node.js**: `v18.17.0+` (Node.js 20+ LTS recommended)
+- **Package Manager**: `pnpm` (recommended), `npm`, or `yarn`
+- **Git**: Latest version
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/developer-portfolio.git
-cd developer-portfolio
+# Verify versions
+node --version
+pnpm --version # or npm --version
+git --version
+```
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Khangulamgousamjat/Gous-khan-portfolio-3.0.git
+cd Gous-khan-portfolio-3.0
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-# Using pnpm (recommended)
+# Using pnpm (Recommended)
 pnpm install
 
-# Using npm
+# Or using npm
 npm install
 
-# Using yarn
+# Or using yarn
 yarn install
 ```
 
-### 3. Set Up Environment Variables
+### 3. Configure Environment Variables
+
+Copy the example environment file and fill in your values:
 
 ```bash
 cp .env.example .env
 ```
 
-Edit the `.env` file with your values (see [Usage](#usage-joystick) section).
-
-### 4. Run the Development Server
+### 4. Run Development Server
 
 ```bash
 pnpm dev
@@ -197,397 +198,137 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio live.
 
 ---
 
-### 🐳 Docker Deployment (Alternative)
+## ⚙️ Environment Configuration
 
-#### Option 1: Using Docker Compose (Recommended)
-
-```bash
-docker-compose up --build
-
-# Run in detached mode
-docker-compose up -d --build
-
-# Stop
-docker-compose down
-```
-
-#### Option 2: Using Docker Directly
-
-**For Development:**
-
-```bash
-# Build the development image
-docker build -t developer-portfolio:dev -f Dockerfile.dev .
-
-# Run the container
-docker run -p 3000:3000 --name portfolio-dev developer-portfolio:dev
-
-# Stop and remove container
-docker stop portfolio-dev && docker rm portfolio-dev
-```
-
-**For Production:**
-
-```bash
-# Build the production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
-
-# Run the production container
-docker run -p 3000:3000 --name portfolio-prod developer-portfolio:prod
-```
-
----
-
-## Usage :joystick:
-
-### Environment Variables Configuration
-
-Create a `.env` file in the root directory with the following variables:
+Create a `.env` file in the root directory:
 
 ```env
-# Google Tag Manager (Optional - for analytics)
+# Application Base URL
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+# Google Tag Manager (Optional)
 NEXT_PUBLIC_GTM=GTM-XXXXXXX
 
-# Your deployed app URL
-NEXT_PUBLIC_APP_URL=https://your-domain.com
+# Gmail SMTP Credentials (For contact form email alerts)
+EMAIL_ADDRESS=your-email@gmail.com
+GMAIL_PASSKEY=your_16_character_app_password
 
-# Telegram Bot Configuration (for contact form notifications)
-TELEGRAM_BOT_TOKEN=your_bot_token_here
-TELEGRAM_CHAT_ID=your_chat_id_here
-
-# Gmail Configuration (for contact form emails)
-GMAIL_PASSKEY=your_gmail_app_password
-EMAIL_ADDRESS=your_email@gmail.com
-```
-
-#### Variable Descriptions:
-
-| Variable              | Required | Description                                  |
-| --------------------- | -------- | -------------------------------------------- |
-| `NEXT_PUBLIC_GTM`     | No       | Google Tag Manager ID for analytics tracking |
-| `NEXT_PUBLIC_APP_URL` | Yes      | Your portfolio's public URL                  |
-| `TELEGRAM_BOT_TOKEN`  | No       | Token for Telegram bot notifications         |
-| `TELEGRAM_CHAT_ID`    | No       | Your Telegram chat ID for receiving messages |
-| `GMAIL_PASSKEY`       | No       | Gmail app password for email notifications   |
-| `EMAIL_ADDRESS`       | No       | Your Gmail address for sending emails        |
-
-> **Note**: Contact form features require either Telegram or Gmail configuration (or both).
-
----
-
-### Customize Your Portfolio Data
-
-All portfolio content is managed through data files in the `utils/data/` folder:
-
-#### 📝 Personal Information (`personal-data.js`)
-
-```javascript
-export const personalData = {
-  name: "YOUR NAME",
-  profile: "/profile.png", // Path to your profile image
-  designation: "Software Developer", // Your job title
-  description: "Your bio and introduction...", // About yourself
-  email: "your.email@example.com",
-  phone: "+1234567890",
-  address: "City, Country",
-  github: "https://github.com/yourusername",
-  facebook: "https://www.facebook.com/yourprofile",
-  linkedIn: "https://www.linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourusername",
-  stackOverflow: "https://stackoverflow.com/users/your-id",
-  leetcode: "https://leetcode.com/yourusername/",
-  devUsername: "yourusername", // dev.to username for blog integration
-  resume: "https://link-to-your-resume.pdf",
-};
-```
-
-#### 💼 Additional Data Files
-
-| File               | Purpose                                        |
-| ------------------ | ---------------------------------------------- |
-| `experience.js`    | Your work experience and job history           |
-| `projects-data.js` | Portfolio projects with descriptions and links |
-| `skills.js`        | Technical skills and competencies              |
-| `educations.js`    | Academic background and certifications         |
-| `contactsData.js`  | Contact form configuration                     |
-
-#### 🎨 Adding Your Profile Image
-
-Place your profile picture in the `public/` directory and update the `profile` field in `personal-data.js`:
-
-```javascript
-profile: "/your-image-name.png"; // or .jpg, .webp
-```
-
----
-
-## Deployment :rocket:
-
-### 🚀 Deploy to Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/said7388/developer-portfolio)
-
-**Manual Deployment:**
-
-1. Sign up at [Vercel](https://vercel.com/)
-2. Import your GitHub repository
-3. Add environment variables in **Settings** → **Environment Variables**
-4. Deploy
-
-**Features:**
-
-- Native Next.js 16 support
-- Automatic deployments on push
-- Preview deployments for PRs
-- Edge runtime support
-- Global CDN and free SSL
-
----
-
-### 🌐 Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/said7388/developer-portfolio)
-
-**Manual Deployment:**
-
-1. Sign up at [Netlify](https://www.netlify.com/)
-2. Import your GitHub repository
-3. Build command: `npm run build`
-4. Publish directory: `.next`
-5. Add environment variables in **Site Settings** → **Environment**
-
----
-
-### 🐳 Deploy with Docker
-
-```bash
-# Build production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
-
-# Run
-docker run -d -p 80:3000 --name portfolio developer-portfolio:prod
-
-# Or use Docker Compose
-docker-compose -f docker-compose.prod.yml up -d
-```
-
----
-
-## Tutorials :wrench:
-
-### 📧 Gmail App Password Setup
-
-1. Go to [https://myaccount.google.com/](https://myaccount.google.com/)
-2. Navigate to **Security** → **2-Step Verification** (enable if not already)
-3. Go to **Security** → **App Passwords**
-4. Select app: **Mail**, device: **Other (Custom name)**
-5. Generate and copy the 16-character password
-6. Add to `.env` file:
-
-```env
-GMAIL_PASSKEY=abcd efgh ijkl mnop
-EMAIL_ADDRESS=your.email@gmail.com
-```
-
----
-
-### 🤖 Create a Telegram Bot
-
-1. Open Telegram and search for `@BotFather`
-2. Send `/newbot` command
-3. Set bot name and username (must end with `bot`)
-4. Copy the bot token
-5. Send a message to your bot
-6. Get chat ID from: `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
-7. Add to `.env` file:
-
-```env
+# Telegram Bot Credentials (For instant mobile message notifications)
 TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
 TELEGRAM_CHAT_ID=123456789
 ```
 
----
-
-### 📝 Fetching Blog from dev.to
-
-1. Create a [dev.to](https://dev.to/) account
-2. Open `utils/data/personal-data.js`
-3. Set your dev.to username:
-
-```javascript
-export const personalData = {
-  // ... other fields
-  devUsername: "yourusername",
-};
-```
-
-The portfolio automatically fetches and displays your latest public articles. No API key required.
-
----
-
-## Packages Used :package:
-
-### Core Dependencies
-
-| Package         | Version | Purpose                                                      |
-| --------------- | ------- | ------------------------------------------------------------ |
-| **next**        | ^16.0.1 | Latest React framework with App Router and Server Components |
-| **react**       | ^19.2.0 | JavaScript library with improved concurrent rendering        |
-| **react-dom**   | ^19.2.0 | React package for working with the DOM                       |
-| **tailwindcss** | ^4.1.16 | Modern utility-first CSS framework                           |
-| **sass**        | Latest  | CSS preprocessor for styling                                 |
-
-### UI & Animations
-
-| Package                | Purpose                                    |
-| ---------------------- | ------------------------------------------ |
-| **lottie-react**       | Lightweight animations with Lottie files   |
-| **react-fast-marquee** | Smooth scrolling marquee component         |
-| **react-icons**        | Popular icon library with easy integration |
-| **react-toastify**     | Beautiful notification toasts              |
-
-### Functionality
-
-| Package                    | Purpose                           |
-| -------------------------- | --------------------------------- |
-| **axios**                  | Promise-based HTTP client         |
-| **nodemailer**             | Email sending functionality       |
-| **@emailjs/browser**       | Client-side email service         |
-| **react-google-recaptcha** | Google reCAPTCHA integration      |
-| **sharp**                  | High-performance image processing |
-| **@next/third-parties**    | Third-party script optimization   |
-
----
-
-## Troubleshooting :wrench:
-
-### Common Issues and Solutions
+### Setting up Integrations:
 
 <details>
-<summary><strong>❌ "next is not recognized as an internal or external command"</strong></summary>
+<summary><strong>📧 Gmail App Password Setup (Nodemailer)</strong></summary>
 
-**Solution:**
+1. Visit your [Google Account Security Settings](https://myaccount.google.com/security).
+2. Ensure **2-Step Verification** is turned ON.
+3. Under *2-Step Verification*, scroll to **App passwords**.
+4. Create a new app password (e.g., name it `Portfolio`).
+5. Copy the generated 16-character code into `GMAIL_PASSKEY` and your email address into `EMAIL_ADDRESS`.
+</details>
+
+<details>
+<summary><strong>🤖 Telegram Bot Notification Setup</strong></summary>
+
+1. Open Telegram and search for [`@BotFather`](https://t.me/BotFather).
+2. Send `/newbot` and follow the prompt to name your bot.
+3. Copy the HTTP API token into `TELEGRAM_BOT_TOKEN`.
+4. Open a chat with your newly created bot and send a message (e.g. `Hello`).
+5. Find your Chat ID by browsing to `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`.
+6. Copy the `id` from the `chat` object and paste it into `TELEGRAM_CHAT_ID`.
+</details>
+
+<details>
+<summary><strong>📝 dev.to Blog Dynamic Sync</strong></summary>
+
+1. Open `utils/data/personal-data.js`.
+2. Ensure your `devUsername` is configured:
+   ```javascript
+   export const personalData = {
+     // ...
+     devUsername: "Khangulamgousamjat",
+   };
+   ```
+3. Articles published under this username on [dev.to](https://dev.to) will automatically be fetched, randomized, and rendered in the Blog section.
+</details>
+
+---
+
+## 🐳 Docker Deployment
+
+You can run this portfolio in a fully containerized environment without installing Node.js locally.
+
+### Using Docker Compose (Quickest)
 
 ```bash
-# Option 1: Install Next.js globally
-npm install -g next
+# Build and run the container in detached mode
+docker compose up -d --build
 
-# Option 2: Use npx (recommended)
-npx next dev
+# View logs
+docker compose logs -f
 
-# Option 3: Use package manager scripts
-npm run dev
+# Stop container
+docker compose down
 ```
 
-</details>
-
-<details>
-<summary><strong>❌ Port 3000 is already in use</strong></summary>
-
-**Solution:**
+### Using Multi-Stage Production Dockerfile Directly
 
 ```bash
-# Find and kill the process using port 3000
-# On macOS/Linux:
-lsof -ti:3000 | xargs kill -9
+# 1. Build production image
+docker build -t gous-portfolio:prod -f Dockerfile.prod .
 
-# On Windows:
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
-
-# Or use a different port:
-PORT=3001 npm run dev
+# 2. Run container on port 3000
+docker run -d -p 3000:3000 --name portfolio-prod --env-file .env gous-portfolio:prod
 ```
 
-</details>
+---
 
-<details>
-<summary><strong>❌ Module not found or dependency errors</strong></summary>
+## 🚢 Production Deployment
 
-**Solution:**
+### Deploying to Vercel (Zero-Config)
+1. Push your repository to GitHub (`Khangulamgousamjat/Gous-khan-portfolio-3.0`).
+2. Import the repository on [Vercel](https://vercel.com).
+3. Add your environment variables in the project settings.
+4. Click **Deploy**. Vercel handles Next.js 16 SSR, edge caching, and automated builds seamlessly.
 
-```bash
-# Clear cache and reinstall dependencies
-rm -rf node_modules package-lock.json
-npm cache clean --force
-npm install
-
-# Or with pnpm:
-rm -rf node_modules pnpm-lock.yaml
-pnpm store prune
-pnpm install
-```
-
-</details>
-
-<details>
-<summary><strong>❌ Environment variables not working</strong></summary>
-
-**Solution:**
-
-- Ensure `.env` file is in the root directory
-- Restart the development server after changing `.env`
-- Check that variables starting with `NEXT_PUBLIC_` are used for client-side code
-- Server-side variables should NOT start with `NEXT_PUBLIC_`
-
-</details>
-
-<details>
-<summary><strong>❌ Images not loading</strong></summary>
-
-**Solution:**
-
-- Verify images are in the `public/` directory
-- Use paths starting with `/` (e.g., `/profile.png`)
-- Check image file extensions match the code
-- Ensure image files are committed to your repository
-
-</details>
-
-<details>
-<summary><strong>❌ Contact form not sending emails</strong></summary>
-
-**Solution:**
-
-- Verify Gmail App Password is correct (16 characters)
-- Check that 2-Step Verification is enabled on your Google account
-- Ensure `EMAIL_ADDRESS` matches the Gmail account
-- Test Telegram bot token and chat ID separately
-- Check browser console for error messages
-
-</details>
+### Deploying to Netlify / VPS
+- Build command: `pnpm build` (or `npm run build`)
+- Start command: `pnpm start` (or `npm start`)
+- Node.js version: `20.x` or higher
 
 ---
 
-## Contributing :handshake:
+## 🤝 Connect & Contact
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
+Feel free to reach out for collaborations, AI/ML consulting, software engineering roles, or open-source discussions:
 
----
+<div align="center">
 
-## License :page_with_curl:
+| Channel | Link |
+| :--- | :--- |
+| 👨‍💻 **GitHub** | [@Khangulamgousamjat](https://github.com/Khangulamgousamjat) |
+| 💼 **LinkedIn** | [linkedin.com/in/gulamgous](https://linkedin.com/in/gulamgous) |
+| 🧩 **LeetCode** | [leetcode.com/u/khangulamgous](https://leetcode.com/u/khangulamgous/) |
+| 💬 **Stack Overflow** | [Khan Gulamgous Amjat](https://stackoverflow.com/users/33063940/khan-gulamgous-amjat) |
+| ✍️ **Dev.to** | [dev.to/khangulamgousamjat](https://dev.to/Khangulamgousamjat) |
+| 📧 **Email** | [gousk2004@gmail.com](mailto:gousk2004@gmail.com) |
+| 📱 **Phone** | [+91 8625076618](tel:+918625076618) |
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Support :coffee:
-
-- ⭐ [Star the repository](https://github.com/said7388/developer-portfolio/stargazers)
-- � [Report bugs](https://github.com/said7388/developer-portfolio/issues)
-- � [Suggest features](https://github.com/said7388/developer-portfolio/discussions)
+</div>
 
 ---
 
-![GitHub stars](https://img.shields.io/github/stars/said7388/developer-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/said7388/developer-portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/said7388/developer-portfolio)
-![GitHub license](https://img.shields.io/github/license/said7388/developer-portfolio)
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/Khangulamgousamjat">Gulamgous Khan</a> • © 2026 All Rights Reserved</sub>
+</div>
