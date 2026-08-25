@@ -43,6 +43,24 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: 'https://github.com/Khangulamgousamjat/student-social-master',
         demo: '',
+    },
+    {
+        id: 6,
+        name: 'Multiple Disease Prediction',
+        description: "An AI/ML-powered health prediction system that can predict multiple diseases from patient data using machine learning models. Implements classification algorithms to analyze symptoms and medical parameters, providing early disease detection insights with high accuracy.",
+        tools: ['Python', 'Machine Learning', 'Scikit-learn', 'NumPy', 'Pandas', 'Flask', 'HTML', 'CSS'],
+        role: 'AI/ML Engineer',
+        code: 'https://github.com/Khangulamgousamjat/Multiple-disease-Prediction',
+        demo: '',
+    },
+    {
+        id: 7,
+        name: 'Food Waste Management',
+        description: "A real-time surplus food discovery and connection platform for donors and NGOs. Enables food donors to list surplus food and connects them with nearby NGOs and individuals in need, reducing food waste while addressing hunger through a seamless and responsive web interface.",
+        tools: ['TypeScript', 'React', 'Node.js', 'MongoDB', 'REST APIs', 'Tailwind CSS'],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/Khangulamgousamjat/food-waste-management',
+        demo: '',
     }
 ];
 
