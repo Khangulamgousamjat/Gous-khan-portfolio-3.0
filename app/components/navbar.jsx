@@ -2,28 +2,47 @@
 "use client";
 
 import Link from "next/link";
-import codeAnimation from "../assets/lottie/code.json";
-import AnimationLottie from "./helper/animation-lottie";
+import { useState, useEffect } from "react";
 
 function Navbar() {
+  const titles = ["Gous.dev", "Gous.ai", "Gous.code"];
+  const [displayText, setDisplayText] = useState("Gous.dev");
+  const [titleIndex, setTitleIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const current = titles[titleIndex];
+    const typingSpeed = isDeleting ? 60 : 120;
+
+    const timeout = setTimeout(() => {
+      if (!isDeleting) {
+        setDisplayText(current.substring(0, displayText.length + 1));
+        if (displayText === current) {
+          setTimeout(() => setIsDeleting(true), 2500);
+        }
+      } else {
+        setDisplayText(current.substring(0, displayText.length - 1));
+        if (displayText === "") {
+          setIsDeleting(false);
+          setTitleIndex((prev) => (prev + 1) % titles.length);
+        }
+      }
+    }, typingSpeed);
+
+    return () => clearTimeout(timeout);
+  }, [displayText, isDeleting, titleIndex]);
+
   return (
     <nav className="bg-transparent">
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className="flex items-center gap-2 text-xl sm:text-2xl md:text-3xl font-mono font-bold tracking-tight group transition-all duration-300">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0 flex items-center justify-center transition-transform duration-300 group-hover:scale-115">
-              <AnimationLottie animationPath={codeAnimation} />
-            </div>
-            <div className="flex items-center">
-              <span className="text-pink-500 transition-transform duration-300 group-hover:-translate-x-1">&lt;</span>
-              <span className="text-[#16f2b3]">Gous</span>
-              <span className="text-pink-500">.</span>
-              <span className="text-white">dev</span>
-              <span className="text-pink-500 transition-transform duration-300 group-hover:translate-x-1">{" />"}</span>
-              <span className="inline-block w-1.5 sm:w-2 h-4 sm:h-5 ml-1 bg-[#16f2b3] animate-pulse rounded-xs opacity-90"></span>
-            </div>
+            className="flex items-center text-2xl md:text-3xl font-mono font-bold tracking-tight group transition-all duration-300">
+            <span className="text-pink-500 transition-transform duration-300 group-hover:-translate-x-1 font-bold">&lt;</span>
+            <span className="animated-brand-text font-bold">{displayText || "G"}</span>
+            <span className="text-pink-500 transition-transform duration-300 group-hover:translate-x-1 font-bold">{" />"}</span>
+            <span className="inline-block w-1.5 sm:w-2 h-4 sm:h-5 ml-1 bg-[#16f2b3] animate-pulse rounded-xs opacity-90"></span>
           </Link>
         </div>
 

@@ -47,3 +47,40 @@ body {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
 }
+
+@keyframes textShimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px rgba(22, 242, 179, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 14px rgba(236, 72, 153, 0.6));
+  }
+}
+
+.animated-brand-text {
+  background: linear-gradient(
+    135deg,
+    #16f2b3 0%,
+    #38bdf8 25%,
+    #ec4899 50%,
+    #a855f7 75%,
+    #16f2b3 100%
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textShimmer 4s ease infinite, glowPulse 3s ease-in-out infinite;
+  display: inline-block;
+}
