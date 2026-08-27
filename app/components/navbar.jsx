@@ -1,6 +1,9 @@
 // @flow strict
-import Link from "next/link";
+"use client";
 
+import Link from "next/link";
+import codeAnimation from "../assets/lottie/code.json";
+import AnimationLottie from "./helper/animation-lottie";
 
 function Navbar() {
   return (
@@ -9,12 +12,18 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className="flex items-center text-2xl md:text-3xl font-mono font-bold tracking-tight group transition-all duration-300">
-            <span className="text-pink-500 transition-transform duration-300 group-hover:-translate-x-1">&lt;</span>
-            <span className="text-[#16f2b3]">Gous</span>
-            <span className="text-pink-500">.</span>
-            <span className="text-white">dev</span>
-            <span className="text-pink-500 transition-transform duration-300 group-hover:translate-x-1">{" />"}</span>
+            className="flex items-center gap-2 text-xl sm:text-2xl md:text-3xl font-mono font-bold tracking-tight group transition-all duration-300">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0 flex items-center justify-center transition-transform duration-300 group-hover:scale-115">
+              <AnimationLottie animationPath={codeAnimation} />
+            </div>
+            <div className="flex items-center">
+              <span className="text-pink-500 transition-transform duration-300 group-hover:-translate-x-1">&lt;</span>
+              <span className="text-[#16f2b3]">Gous</span>
+              <span className="text-pink-500">.</span>
+              <span className="text-white">dev</span>
+              <span className="text-pink-500 transition-transform duration-300 group-hover:translate-x-1">{" />"}</span>
+              <span className="inline-block w-1.5 sm:w-2 h-4 sm:h-5 ml-1 bg-[#16f2b3] animate-pulse rounded-xs opacity-90"></span>
+            </div>
           </Link>
         </div>
 
