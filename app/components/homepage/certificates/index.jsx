@@ -123,7 +123,7 @@ function Certificates() {
           href={personalData.certificates}
         >
           <FaGoogleDrive size={18} />
-          <span>View All Certificates on Google Drive</span>
+          <span>View All Certificates</span>
           <FaExternalLinkAlt size={13} />
         </Link>
       </div>
