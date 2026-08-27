@@ -13,5 +13,6 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/users/33063940/khan-gulamgous-amjat',
   leetcode: "https://leetcode.com/u/khangulamgous/",
   devUsername: "Khangulamgousamjat",
-  resume: "https://drive.google.com/file/d/1g3xf3mnsblq0r-9kmlTXWDnZC-nDfJ_u/view?usp=drivesdk"
+  resume: "https://drive.google.com/file/d/1g3xf3mnsblq0r-9kmlTXWDnZC-nDfJ_u/view?usp=drivesdk",
+  certificates: "https://drive.google.com/drive/folders/1VP2Dtw2O47UsxAawFTmkdaV9yylKm90m?usp=sharing"
 }

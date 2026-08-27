@@ -2,6 +2,6 @@
 import { personalData } from "@/utils/data/personal-data";
 import { redirect } from "next/navigation";
 
-export default function BlogPage() {
+export default function CertificatesPage() {
   redirect(personalData.certificates);
 }
