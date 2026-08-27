@@ -9,8 +9,12 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
-            GULAMGOUS KHAN
+            className="flex items-center text-2xl md:text-3xl font-mono font-bold tracking-tight group transition-all duration-300">
+            <span className="text-pink-500 transition-transform duration-300 group-hover:-translate-x-1">&lt;</span>
+            <span className="text-[#16f2b3]">Gous</span>
+            <span className="text-pink-500">.</span>
+            <span className="text-white">dev</span>
+            <span className="text-pink-500 transition-transform duration-300 group-hover:translate-x-1">{" />"}</span>
           </Link>
         </div>
 
