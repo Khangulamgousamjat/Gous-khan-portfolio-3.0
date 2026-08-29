@@ -49,33 +49,38 @@ function ContactSection() {
             </p>
           </div>
           <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
+            {/* GitHub - white on dark */}
             <Link target="_blank" href={personalData.github}>
               <IoLogoGithub
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-[#24292e] p-3 rounded-full text-white hover:scale-125 hover:bg-[#16f2b3] hover:text-gray-900 transition-all duration-300 cursor-pointer"
                 size={48}
               />
             </Link>
+            {/* LinkedIn - blue */}
             <Link target="_blank" href={personalData.linkedIn}>
               <BiLogoLinkedin
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-[#0077b5] p-3 rounded-full text-white hover:scale-125 hover:bg-[#16f2b3] hover:text-gray-900 transition-all duration-300 cursor-pointer"
                 size={48}
               />
             </Link>
+            {/* LeetCode - orange */}
             <Link target="_blank" href={personalData.leetcode}>
               <SiLeetcode
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-[#f89f1b] p-3 rounded-full text-white hover:scale-125 hover:bg-[#16f2b3] hover:text-gray-900 transition-all duration-300 cursor-pointer"
                 size={48}
               />
             </Link>
+            {/* Stack Overflow - orange-red */}
             <Link target="_blank" href={personalData.stackOverflow}>
               <FaStackOverflow
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-[#ef8236] p-3 rounded-full text-white hover:scale-125 hover:bg-[#16f2b3] hover:text-gray-900 transition-all duration-300 cursor-pointer"
                 size={48}
               />
             </Link>
+            {/* Instagram - gradient via pink bg */}
             <Link target="_blank" href={personalData.instagram}>
               <FaInstagram
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-[#e1306c] p-3 rounded-full text-white hover:scale-125 hover:bg-[#16f2b3] hover:text-gray-900 transition-all duration-300 cursor-pointer"
                 size={48}
               />
             </Link>
